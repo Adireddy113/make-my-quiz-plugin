@@ -52,4 +52,4 @@ make-my-quiz/
 
 1. What are the basic required files for this plugin and purpose of those files
 2. How to create menu and sub menu items in admin dashboard using **add_menu_page** and **add_submenu_page**
-
+3. How to connect all files using **require_once**
