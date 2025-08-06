@@ -13,6 +13,26 @@ add_menu_page (
 4
 );
 
+
+add_submenu_page (
+'make-my-quiz',
+'Quizzes',
+'Quizzes',
+'manage_options',
+'edit.php?post_type=quiz',
+''
+);
+
+add_submenu_page (
+'make-my-quiz',
+'Add Questions',
+'Add Questions',
+'manage_options',
+'edit.php?post_type=question',
+''
+);
+
+
 add_submenu_page (
 'make-my-quiz',
 'Results',
@@ -21,6 +41,8 @@ add_submenu_page (
 'results',
 'mmq_result'
 );
+
+
 
 remove_submenu_page('make-my-quiz','make-my-quiz');
 }
