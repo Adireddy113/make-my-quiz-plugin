@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Make My Quiz
-Description: This is a simple and effective quiz plugin developed for beginner creators to easily build and manage engaging quizzes.
+Description: This is a simple and effective quiz plugin developed for beginner quiz creators to easily build and manage engaging quizzes.
 Version: 1.0.0
 Author: Adireddy
 License: GPLv2 or later
