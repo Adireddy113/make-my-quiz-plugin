@@ -22,8 +22,34 @@
 
 **📌 Summary:**
 
-* 🔧 Created plugin folder and main plugin file `make-my-quiz.php`(used for connecting the files)
+* 🔧 Created plugin folder and main plugin file `make-my-quiz.php`.
 * 🧩 Registered custom admin menu **Make My Quiz** and a submenu **Results** (used by admin)
+* ✅ Verified menu visibility inside WordPress admin dashboard
+
+**📁 File Changes:**
+
+```bash
+make-my-quiz/ 
+├── make-my-quiz.php  
+├── admin
+    ├── admin-menu.php             
+```
+
+## 🧩What I Learned
+
+1. What are the basic required files for this plugin and purpose of those files
+2. How to create menu and sub menu items in admin dashboard using **add_menu_page** and **add_submenu_page**
+3. How to connect all files using **require_once** in **make-my-quiz.php** file
+
+
+
+
+### ✅ Day 2 – Registering Custom Post Types
+
+**📌 Summary:**
+
+* 🔧 Created plugin folder and main plugin file `make-my-quiz.php`.
+* 🧩 Registered custom post types **Quizzes** and a submenu **Add Questions** (used by admin)
 * ✅ Verified menu visibility inside WordPress admin dashboard
 
 **📁 File Changes:**
@@ -35,21 +61,15 @@ make-my-quiz/
     ├── admin-menu.php
     ├── quiz-cpt.php
     ├── question-cpt.php
-    ├── mmq-result.php
-├── public
-    ├── display-quiz.php
-    ├──  handle-submission.php              
-├── assets
-    ├── css
-        ├── style.css
-    ├── js 
-        ├── script.js    
-├── includes
-    ├── install.php
 ```
+
 
 ## 🧩What I Learned
 
-1. What are the basic required files for this plugin and purpose of those files
-2. How to create menu and sub menu items in admin dashboard using **add_menu_page** and **add_submenu_page**
-3. How to connect all files using **require_once**
+1. what are custom post types and how to create/register them.
+2. Registered custom post types **Quizzes** and **Add Questions** through **register_post_type** function
+3. And how add those registered custom post types to Admin Menu dashboard.
+4. Connected these php files to main file through **require_once**
+
+
+
