@@ -19,3 +19,5 @@ require_once plugin_dir_path(__FILE__) . 'admin/question-cpt.php';
 require_once plugin_dir_path(__FILE__) . 'public/display-quiz.php';
 require_once plugin_dir_path(__FILE__) . 'public/handle-submission.php';
 require_once plugin_dir_path(__FILE__) . 'includes/install.php';
+
+register_activation_hook(__FILE__,'quiz_table');
