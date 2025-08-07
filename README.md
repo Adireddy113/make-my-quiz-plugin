@@ -72,4 +72,30 @@ make-my-quiz/
 4. Connected these php files to main file through **require_once**
 
 
+### ✅ Day 3 – Created custom database table to store results
 
+**📌 Summary:**
+
+* 🔧 created a folder called `includes` and a file `install.php`
+* 🧩 created custom database table called **mmq_results** to store results
+* ✅ verified the db table in Database with required columns
+
+**📁 File Changes:**
+
+```bash
+make-my-quiz/ 
+├── make-my-quiz.php  
+├── admin
+    ├── admin-menu.php
+    ├── quiz-cpt.php
+    ├── question-cpt.php
+├── includes
+    ├── install.php
+```
+
+
+## 🧩What I Learned
+
+1. Creation of custom database table
+2. Linking of db table file is slight different from other files to main file
+3. With `require_once` it also use `register_activation_hook` while adding to main php file 
